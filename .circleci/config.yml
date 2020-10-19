@@ -40,7 +40,7 @@ jobs:
 
       - run:
           name: run html proofer
-          command: docker run 18fgsa/html-proofer
+          command: bundle exec jekyll serve
 
       - run:
           name: notify test is finished
