@@ -40,7 +40,7 @@ jobs:
 
       - run:
           name: run html proofer
-          command: REPLACE-ME-WITH-SCRIPT
+          command: docker run 18fgsa/html-proofer
 
       - run:
           name: notify test is finished
